@@ -113,5 +113,6 @@ class Machine:
         for rotor in self.__rotors:
             if(turnTheNext):
                 turnTheNext = rotor.turn()
+                print("turned")
             else:
                 break
